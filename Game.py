@@ -37,6 +37,7 @@ def draw_board(last_move):
     for cell in range(9):
         if cell == 3 or cell == 6:
             print()
+
         if cell == last_move:
             print('\x1b[' + COLOR + 'm' + board[cell] + '\x1b[0m', end=' ')
         else:
@@ -214,6 +215,7 @@ def main():
             break
 
         print()
+
 
 if __name__ == '__main__':
     main()
