@@ -9,11 +9,6 @@ EMPTY = '-'
 # File name for the Learning Data
 FILE = 'mttt.dat'
 
-# Color for last move
-TEXT_COLOR = '31'
-BG_COLOR = '48'
-COLOR = F'0;{TEXT_COLOR};{BG_COLOR}'
-
 # Global list for the grid
 board = [EMPTY for x in range(9)]
 
@@ -38,10 +33,7 @@ def draw_board(last_move):
         if cell == 3 or cell == 6:
             print()
 
-        if cell == last_move:
-            print('\x1b[' + COLOR + 'm' + board[cell] + '\x1b[0m', end=' ')
-        else:
-            print(board[cell], end=' ')
+        print(board[cell], end=' ')
     print()
 
 
