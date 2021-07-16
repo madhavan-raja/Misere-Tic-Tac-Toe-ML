@@ -1,6 +1,6 @@
 # Misere Tic Tac Toe (ML)
 
-This application uses the Hexapawn's reinforced learning approach on a game of Misere Tic Tac Toe.  
+The Hexapawn's reinforced learning approach on a game of Misere Tic Tac Toe.  
 The data that has been learned is stored in a file and can be reused later.  
 The Machine Learning element of the game is hard coded.
 
