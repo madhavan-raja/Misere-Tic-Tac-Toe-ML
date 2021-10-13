@@ -1,4 +1,4 @@
-# Misere Tic Tac Toe (ML)
+# Misere Tic Tac Toe (AI)
 
 The Hexapawn's reinforced learning approach on a game of Misere Tic Tac Toe.  
 The data that has been learned is stored in a file and can be reused later.  
